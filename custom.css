@@ -3,8 +3,8 @@
 		height: 0px;
 	}
 	#onetrust-pc-sdk.otPcPanel{
-		top: 5.6rem;
-		height: 95%;
+		top: 50px;
+    		height: calc( 100% - 50px );
 	}
 }
 
@@ -137,4 +137,12 @@ background-color: #F91320;
 
 #onetrust-consent-sdk #onetrust-pc-sdk #hosts-list-container .vendor-host, #onetrust-consent-sdk #onetrust-pc-sdk .accordion-text .vendor-options {
     background-color: #FFFFFF;
+}
+
+#ot-filter-modal p, 
+#ot-filter-modal span {
+    color: #000 !important;
+}
+#onetrust-pc-sdk #filter-apply-handler {
+    margin-left: 5px;
 }
