@@ -146,3 +146,7 @@ background-color: #F91320;
 #onetrust-pc-sdk #filter-apply-handler {
     margin-left: 5px;
 }
+
+.ot-switch.ot-toggle {
+    direction: ltr;
+}
